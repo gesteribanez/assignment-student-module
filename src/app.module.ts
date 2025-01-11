@@ -14,7 +14,7 @@ import { StudentModule } from './student/student.module';
       password: '',
       database: 'mattDB', // database name
       autoLoadEntities: true,
-      synchronize: true,
+      synchronize: false,
     }),
     StudentModule,
   ],
